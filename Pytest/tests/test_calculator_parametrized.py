@@ -76,3 +76,4 @@ def test_divide(a, b, expected):
 def test_divide_by_zero():
     with pytest.raises(ValueError, match="Cannot divide by zero!"):
         calculator.divide(10, 0)
+        
